@@ -1,9 +1,39 @@
-# Naive-Bayes-with-Front-End
-The following is an implementation of the Naive Bayes theorem on a dataset, with a front end built using the Stream Lit library.
-•	In this code we have used python language as a base and using different libraries to help accomplish this task.
-•	The Stream Lit library was used to make a webpage where we have added a title, a sub header, a text input slot, a button that starts the classification process.
-•	Using the panda’s library to help import the dataset into the environment.
-•	Using sklearn library to import features that help implement the Naïve Bayes Algorithm.
-•	The code also predicts the sentiment of a review entered by the user and prints the accuracy score and the confusion matrix of the dataset involved.
-•	The code is run through a command on the terminal i.e.,
-streamlit run NameofFile.py
+Sure, here's an updated README.md with the steps to run the code:
+
+```markdown
+# Naive Bayes Movie Review Classifier 🍿
+
+## Overview
+Welcome to the Naive Bayes Movie Review Classifier! This interactive tool predicts the sentiment of movie reviews as positive or negative using the Naive Bayes algorithm.
+
+## How to Use
+1. Enter your movie review in the text area provided.
+2. Click the "Classify" button to see the predicted sentiment.
+
+## Running the Code
+1. **Install the required libraries**:
+   - Streamlit
+   - Pandas
+   - Scikit-learn
+
+2. **Save the code in a file (e.g., app.py)**:
+
+3. **Download the IMDB movie review dataset (IMDBDataset.csv) and place it in the same directory as the code.**
+
+4. **Run the Streamlit app**:
+   ```bash
+   streamlit run app.py
+   ```
+
+5. **Open your web browser and go to http://localhost:8501 to access the app.**
+
+## Implementation Details
+- The classifier is trained on the IMDB movie review dataset.
+- It uses a Naive Bayes model with CountVectorizer for text processing.
+
+## Results
+- The tool displays the predicted sentiment (positive/negative) and the class label.
+- You can also see the accuracy score and confusion matrix for the model.
+
+## Enjoy Analyzing Movie Reviews! 🎥
+```
